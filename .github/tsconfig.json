@@ -1,0 +1,178 @@
+{
+    "include" : [
+        "**/*.tsx" ,
+        "**/*.ts" ,
+        "**/*.js"
+    ],
+
+    "exclude" : [
+        "node_modules"
+    ],
+
+    "compilerOptions" : {
+
+        "baseUrl" : "./Source/" ,
+        "outDir" : "./Build/JavaScript/" ,
+
+        "paths" : {
+
+        },
+
+
+        //  https://www.typescriptlang.org/tsconfig#module
+
+		"module" : "esnext" ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#moduleResolution
+
+        "moduleResolution" : "nodenext" ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#target
+
+        "target" : "es2020" ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#jsx
+
+        "jsx" : "preserve" ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#plugins
+
+        "plugins" : [{
+
+            //  https://github.com/Microsoft/typescript-styled-plugin
+
+            "name" : "typescript-styled-plugin"
+
+        }],
+
+
+        //  https://www.typescriptlang.org/tsconfig#lib
+
+        "lib" : [
+            "ESNext" ,
+            "DOM"
+        ],
+
+
+        //  https://www.typescriptlang.org/tsconfig#strict
+
+        "strict": true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#exactOptionalPropertyTypes
+
+        "exactOptionalPropertyTypes" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#noImplicitOverride
+
+        "noImplicitOverride" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#noImplicitReturns
+
+        "noImplicitReturns" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#noImplicitThis
+
+        "noImplicitThis" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#noUncheckedIndexedAccess
+
+        "noUncheckedIndexedAccess" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#strictBindCallApply
+
+        "strictBindCallApply" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#strictFunctionTypes
+
+        "strictFunctionTypes" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#strictNullChecks
+
+        "strictNullChecks" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#strictPropertyInitialization
+
+        "strictPropertyInitialization" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#useUnknownInCatchVariables
+
+        "useUnknownInCatchVariables" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#resolveJsonModule
+
+        "resolveJsonModule" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#noEmit
+
+        "noEmit" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#removeComments
+
+        "removeComments" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#allowJs
+
+        "allowJs" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#checkJs
+
+        "checkJs" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#allowSyntheticDefaultImports
+
+        "allowSyntheticDefaultImports" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#esModuleInterop
+
+        "esModuleInterop" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#forceConsistentCasingInFileNames
+
+        "forceConsistentCasingInFileNames" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#isolatedModules
+
+        "isolatedModules" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#emitDecoratorMetadata
+
+        "emitDecoratorMetadata" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#experimentalDecorators
+
+        "experimentalDecorators" : true ,
+
+
+        //  https://www.typescriptlang.org/tsconfig#skipLibCheck
+
+        "skipLibCheck" : true ,
+
+
+
+    }
+}
