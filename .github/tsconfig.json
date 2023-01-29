@@ -1,27 +1,29 @@
 {
     "include" : [
-        "**/*.tsx" ,
-        "**/*.ts" ,
-        "**/*.js"
+        "./Source/**/*"
     ],
 
     "exclude" : [
-        "node_modules"
+        "../node_modules"
+    ],
+
+    "files" : [
+        "../Source/App.ts"
     ],
 
     "compilerOptions" : {
 
-        "baseUrl" : "./Source/" ,
-        "outDir" : "./Build/JavaScript/" ,
+        "baseUrl" : "../Source/" ,
+        "outDir" : "../Build/JavaScript/" ,
 
         "paths" : {
-
+            "Wow" : [ "./Test2.ts" ]
         },
 
 
         //  https://www.typescriptlang.org/tsconfig#module
 
-		"module" : "esnext" ,
+		"module" : "commonjs" ,
 
 
         //  https://www.typescriptlang.org/tsconfig#moduleResolution
@@ -53,8 +55,8 @@
         //  https://www.typescriptlang.org/tsconfig#lib
 
         "lib" : [
-            "ESNext" ,
-            "DOM"
+            "esnext" ,
+            "dom"
         ],
 
 
