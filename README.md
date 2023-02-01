@@ -1,1 +1,2 @@
-# Template-Shopify-App
+
+# Template Shopify App

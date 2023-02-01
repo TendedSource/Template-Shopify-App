@@ -1,0 +1,24 @@
+{
+
+    //  Files to not include while searching
+
+    "search.exclude" : {
+        "**/node_modules" : true ,
+        "**/Build" : true
+    },
+
+
+    //  Files to hide in VSCode ( Sidebar )
+
+    "files.exclude": {
+        "**/node_modules": false,
+        "Build": false,
+        ".github": false,
+        "package-lock.json": false,
+        ".editorconfig": false,
+        "package.json": false,
+        "LICENSE": false,
+        "tsconfig.json": false ,
+        "next-env.d.ts" : false
+    }
+}

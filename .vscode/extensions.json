@@ -1,0 +1,24 @@
+{
+    "recommendations" : [
+
+        /*
+         *  Editorconfig
+         *  for basic markdown consistency
+         *
+         *  https://editorconfig.org/
+         */
+
+        "editorconfig.editorconfig" ,
+
+
+        /*
+         *  Toggle Excluded Files
+         *  since VSCode doesn't
+         *  have a toggle for it
+         *
+         *  https://github.com/eamodio/vscode-toggle-excluded-files
+         */
+
+        "amodio.toggle-excluded-files"
+    ]
+}
